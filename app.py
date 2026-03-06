@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "API funcionando en Render para probar el despliegue continuo"
+    return "Prueba SUPERADA"
 
 if __name__ == "__main__":
     app.run()
